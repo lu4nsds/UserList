@@ -3,15 +3,15 @@ import { StyleSheet, Text, View, Dimensions } from 'react-native';
 
 const styles = StyleSheet.create({
     container: {
-      height: Dimensions.get('window').height,
-      backgroundColor: '#c9c9c9',
+      height: '100%',
+      backgroundColor: 'white',
     },
   });
 
-export default function MyContainer({children}) {
+export default function MyContainer(props) {
     return (
       <View style={styles.container}>
-        {children}
+        {props.children}
       </View>
     );
 }

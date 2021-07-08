@@ -13,6 +13,7 @@ const styles = StyleSheet.create({
     textHeader: {
       fontSize: 24,
       fontWeight: 'bold',
+      color: 'white',
     },
   });
 
